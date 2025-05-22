@@ -5,6 +5,7 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager instance;
 
+    int abc = 5;
     private void Awake()
     {
         if (instance == null)
